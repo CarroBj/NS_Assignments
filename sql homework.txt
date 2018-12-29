@@ -1,0 +1,68 @@
+1. SELECT CUSTOMERID, CustomerName, ContactName, Address, City, PostalCode, Country 
+FROM [Customers]
+
+2. SELECT customerid FROM [Customers] 
+
+3. SELECT Customerid, CustomerName FROM [Customers]
+
+4. SELECT ContactName, Address, City FROM [Customers] 
+
+5. SELECT Country FROM [Customers] 
+
+6. SELECT CustomerID,CustomerName,Country FROM [Customers]c
+
+7. SELECT Orderid FROM [OrderDetails] 
+
+8. SELECT CustomerId FROM [Orders] 
+
+9. SELECT CustomerID,EmployeeID,OrderDate FROM [Orders] 
+
+10. SELECT ShipperID,OrderID FROM [Orders] 
+
+11. SELECT [OrderDate]FROM [orders] 
+
+12. SELECT OrderDetailID FROM [OrderDetails] 
+
+13. SELECT ShipperName,Phone FROM [Shippers] 
+
+14. SELECT LastName,FirstName FROM [Employees] 
+
+15. SELECT LastName,FirstName,Notes FROM [Employees] 
+
+16. select birthdate from [employees]
+
+17. SELECT EmployeeID,Photo FROM [Employees] 
+
+18. SELECT CategoryName,Description FROM [Categories] 
+
+19. SELECT ProductID,ProductName FROM [Products] 
+
+20. SELECT SupplierID FROM [Products] 
+
+21. SELECT Unit,Price FROM [Products] 
+
+22. SELECT (country) FROM [Customers] 
+
+23. SELECT (EmployeeID),(CustomerID) FROM [Orders] 
+
+24. How many tables are in the
+database? 8 
+
+25. What’s the name of the tables and how many records are in
+them? Customers	91
+Categories	8
+Employees	10
+OrderDetails	518
+Orders	196
+Products	77
+Shippers	3
+Suppliers   29
+
+26. Select (*) Make,model
+From cars
+where: Drivetrain=All
+gives me 460
+
+27. SELECT COUNT(*) FROM cars
+WHERE Origin ='USA';
+gives me 147
